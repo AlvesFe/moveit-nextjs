@@ -1,5 +1,4 @@
 import { useEffect, useState, useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengesContext';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
@@ -23,7 +22,7 @@ export function Countdown() {
                     <span>{minuteLeft}</span>
                     <span>{minuteRight}</span>
                 </div>
-                <span>:</span>
+                <span> : </span>
                 <div>
                     <span>{secondLeft}</span>
                     <span>{secondRight}</span>
